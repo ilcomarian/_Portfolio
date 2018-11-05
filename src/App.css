@@ -89,7 +89,7 @@
 }
 .form-txt {
   text-align: center;
-  margin-top: 12.4vw;
+  margin-top: 7vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -104,8 +104,8 @@ input {
   margin-bottom: 2%;
 }
 .contact-grid hr {
-  border-top: 5px dotted black;
-  width: 50%;
+  border-top: 1px solid black;
+  width: 30%;
   /* margin: auto; */
 }
 
@@ -115,7 +115,7 @@ input {
 }
 
 .contact-list {
-  margin-top: 5vw;
+  margin-top: 7vw;
   font-size: 2vw;
   font-family: "Anton", sans-serif;
 }
