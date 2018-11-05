@@ -74,22 +74,13 @@
   margin-left: 0.3vw;
   font-size: 1vw;
 }
-.contact-body {
-  margin: auto;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  display: flex;
-}
 
 .contact-grid {
-  padding-top: 2em;
-}
-.contact-grid {
-  text-align: center;
+  padding-top: 2vw;
   width: 80%;
   height: 80%;
   margin-bottom: 20px;
+  border: #000;
 }
 
 .form {
@@ -97,11 +88,13 @@
   justify-content: space-around;
 }
 .form-txt {
-  margin-top: 17%;
+  text-align: center;
+  margin-top: 12.4vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 40vw;
+  margin-right: 3vw;
+  width: 30vw;
 }
 .form-txt a {
   margin: 2%;
@@ -110,7 +103,33 @@
 input {
   margin-bottom: 2%;
 }
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  /* margin: auto; */
+}
 
+.contact-list li {
+  /* margin-top: 10%; */
+  border-style: none;
+}
+
+.contact-list {
+  margin-top: 5vw;
+  font-size: 2vw;
+  font-family: "Anton", sans-serif;
+}
+.contact-body i {
+  font-size: 65px;
+  padding-right: 5rem;
+}
+/* .contact-list {
+  background: grey;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+} */
 /* 
 .contact-body {
   margin: auto;
@@ -134,10 +153,7 @@ input {
   margin: auto;
 }
 
-.contact-body i {
-  font-size: 65px;
-  padding-right: 5rem;
-}
+
 
 .contact-body h2 {
   font-family: Anton;
