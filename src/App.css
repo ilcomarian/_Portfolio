@@ -50,17 +50,23 @@
 }
 .project-grid {
   margin-top: 3%;
-
-  /* background: grey; */
-  display: flex;
-  justify-content: space-around;
 }
+
 .cards {
-  width: 25%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  width: 30%;
   border: 1px solid grey;
   box-shadow: 0 0 11px 1px black;
-}
 
+  /* margin-left: 2.3vw;
+  margin-right: 2.3vw; */
+  margin: 1.3vw;
+}
 .card-body {
   margin: 3%;
 }
