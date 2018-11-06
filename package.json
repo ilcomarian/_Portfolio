@@ -2,7 +2,7 @@
   "name": "marianilco",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ilcomarian.github.io/_Portfolio",
+  "homepage": "https://ilcomarian.github.io/_Portfolio/",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "import-to-array": "^1.0.0",
