@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import "./App.css";
 import { Navbar, Nav, NavItem } from "react-bootstrap";
 import Routes from "./components/routs";
-import pdf from "../files/marian.pdf";
+// import pdf from "./public/marian.pdf";
 class App extends Component {
   render() {
     return (
@@ -33,13 +33,16 @@ class App extends Component {
                   <h4>Projects</h4>
                 </NavLink>
               </NavItem>
-              <NavItem eventKey={2}>
+              <NavItem
+                eventKey={2}
+                href="/marian.pdf"
+                target="_blank"
+                className="link"
+              >
                 {/* <a href="/marian.pdf" target="_blank" className="link">
                   <h4>Resume</h4>
                 </a> */}
-                <NavLink to="/marian.pdf" target="_blank">
-                  Resume
-                </NavLink>
+                <h4>Resume</h4>
               </NavItem>
               <NavItem eventKey={3}>
                 <NavLink
