@@ -35,7 +35,7 @@ class App extends Component {
               </NavItem>
               <NavItem
                 eventKey={2}
-                href="/marian.pdf"
+                href="/public/marian.pdf"
                 target="_blank"
                 className="link"
               >
