@@ -34,9 +34,9 @@ class App extends Component {
                 </NavLink>
               </NavItem>
               <NavItem eventKey={1}>
-                <NavLink to="/resume" activeClassName="activ" className="link">
+                <a href="/marian.pdf" target="_blank" className="link">
                   <h4>Resume</h4>
-                </NavLink>
+                </a>
               </NavItem>
               <NavItem eventKey={3}>
                 <NavLink
