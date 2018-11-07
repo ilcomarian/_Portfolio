@@ -24,9 +24,6 @@ class App extends Component {
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav pullRight>
-              <NavItem eventKey={1} href="/MarianIlco.pdf" target="_blank">
-                <h4 style={{ color: "black" }}>Resume</h4>
-              </NavItem>
               <NavItem eventKey={2}>
                 <NavLink
                   to="/projects"
@@ -34,6 +31,11 @@ class App extends Component {
                   activeClassName="activ"
                 >
                   <h4>Projects</h4>
+                </NavLink>
+              </NavItem>
+              <NavItem eventKey={1}>
+                <NavLink to="/resume" activeClassName="activ" className="link">
+                  <h4>Resume</h4>
                 </NavLink>
               </NavItem>
               <NavItem eventKey={3}>
