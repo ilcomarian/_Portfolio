@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import "./App.css";
 import { Navbar, Nav, NavItem } from "react-bootstrap";
 import Routes from "./components/routs";
-// import pdf from "./public/marian.pdf";
+
 class App extends Component {
   render() {
     return (
